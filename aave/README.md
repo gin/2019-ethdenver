@@ -127,26 +127,8 @@ vs
 
 ---
 
-### 0
-__Page:__  
-/
-
-__Problem & User Story:__  
-.
-
-![alt text][]
-
-
-
-
-
-
-
-
-
-
-
-
+### Conclusion
+Overall, the user flows are pretty good, and I can't think of much to speed it up so that user can request a loan or invest in a loan faster, other than feedback #07 above.
 
 
 [01-signup-dropdown-menu]: ./img/01-signup-dropdown-menu.png
