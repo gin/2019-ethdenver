@@ -40,7 +40,7 @@ __Problem & User Story:__
 Spacing in description text is off when window width is lower than 768px.  
 When I looked at the "/createwallet" page on my phone (Galaxy S9+) on Chrome mobile browser, the spacing is off. Other popular phones where the resolution is lower than 768px when on Chrome mobile browser includes iPhoneX (375px), Pixel2 (411px), Pixel 2XL (411px).
 
-![alt text][02-createwallet-responsive-spacing-on-mobile]
+![alt text][02-createwallet-responsive-spacing-on-mobile =411x]
 
 ![alt text][02-createwallet-responsive-767]
 
