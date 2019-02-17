@@ -56,8 +56,8 @@ __Page:__
 Expect tooltip with additional information about "Collateral Safetiness"
 
 __Problem & User Story:__  
-The "Your Loan Detail" modal's fa-question-circle icon does not provide information to user.
-When I mouse hover over (or click) the fa-question-circle icon, I expect additional information similar to other pages on ETHLend.
+The "Your Loan Detail" modal's fa-question-circle icon does not provide information to the user.
+When I mouse hover over (or click on) the fa-question-circle icon, I expect additional information similar to other pages on ETHLend.
 
 ![alt text][03-borrowcreate-your-loan-detail-modal-fa-question-circle]
 
@@ -74,7 +74,7 @@ Expect not to restart from the beginning
 __Problem & User Story:__  
 The "Create" button here might not make sense.  
 Maybe remove this button, and reword this section to something like "You can fulfill a borrower's loan request at the marketplace".  
-Or keep the button but create webpages for creating loan offers. This is uncommon though. P2P lending platforms like Lending Club, Prosper, SoFi does not do this probably because trade volume is not high enough where doing it like an exchange (bid/ask model) makes sense. 
+Or keep the button but create webpages for creating loan offers, and link the button to it. 
 
 ![alt text][04-home-lend]
 
@@ -91,8 +91,10 @@ e.g. duration = 30days or 60days, monthly interest = 0.25% or 0.5%
 4. Click on "Overview" button
 5. Click on "Create" button
 
+Expect no error messages
+
 __Problem & User Story:__  
-At the end of this user flow, there is an error message saying there is not enough funds in user's wallet to complete this action even though there is enough in MetaMask (Tried using Main Ethererum Network, and Rinkeby Test Network).  
+At the end of this user flow, there is an error message saying there are not enough funds in user's wallet to complete this action even though there is enough in MetaMask (I tried using Main Ethererum Network, and Rinkeby Test Network).  
 I'm not sure what is causing this error. I tried several different the parameters (in the e.g. listed above), and tried using other user flow paths.
 
 ---
@@ -102,7 +104,7 @@ __Page:__
 /borrowcreate
 
 __General feedback:__  
-The main functionality is contained inside a visually small div (e.g. create-loan-control) instead of using the entire height of user's browser. This increases the amount of scrolling that user has to do. Decreasing this leads to better UX. Other pages in ETHLend are good, making this page's create-loan-control div inconsistent with the other pages.
+The main functionality is contained inside a visually small div (e.g. create-loan-control) instead of using the entire height of the user's browser. This increases the amount of scrolling that user has to do. Decreasing this leads to better UX. Other pages in ETHLend are good, making this page's create-loan-control div inconsistent with the other pages.
 
 Bad
 ![alt text][06-borrowcreate-scroll-bad]
@@ -128,7 +130,7 @@ vs
 ---
 
 ### Conclusion
-Overall, the user flows are pretty good, and I can't think of much to speed it up so that user can request a loan or invest in a loan faster, other than feedback #07 above.
+Overall, the user flows are pretty good, and I can't think of much to speed it up such that user can request a loan or invest in a loan faster, other than feedback #07 above.
 
 
 [01-signup-dropdown-menu]: ./img/01-signup-dropdown-menu.png
